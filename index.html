@@ -1,0 +1,74 @@
+<!-- divs don't do anything unless you use css with it.
+      div = comtent division element = allows you to split
+      up or divide content into separate containers/boxes so
+      that you can affect the layout of each box separately.
+      inline dislay element = only takes up as much space as
+      it needs to in height and width (spans, images, anchors).
+      block element = takes up space around it/ only one per line/block.
+      inline = takes up as much space as the content.
+      visibility: makes image disappear but keeps its posititon.
+      static position: all html elements are static (keep to the default).
+      relative: position element relative to how it would have been positioned if it were static.
+      absolute: adding margin to parent element/ relative to parent element.
+    -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ugochi O.</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+</head>
+
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud">
+    <h1>I'm Ugochi.</h1>
+    <h2><span class="programmer">a <span class="pro">pro</span>grammer.</span></h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+    <img src="images/mountain.png" alt="mountain">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile" src="images/girl.png" alt="profile-picture">
+      <h2>Hello.</h2>
+      <p class="introduction">I am an undergraduate student who loves to <br> read, write, design, and code. I also have an <br />obsession for all things brain related.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="photoshop" src="images/photoshop.png" alt="photoshop-icon">
+        <h3>Photoshop</h3>
+        <p class="photoshop-description">I have 3+ years experience with Photoshop and <br /> have designed all kinds of graphics including <br> book covers, image blends, posters, and more.</p>
+      </div>
+      <div class="skill-row">
+        <img class="writing" src="images/pen.png" alt="pen-icon">
+        <h3>Writing</h3>
+        <p class="writing-description">I have been writing since I was 9 years old and <br />my specialty is fiction and poetry. I also have <br />a few works published in online magazines.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Want to talk?</h3>
+      <p class="contact-description">Send me an email or visit one of my sites!</p>
+      <a class="butn" href="mailto:name@email.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <strong><a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    </strong>
+    <p class="copyright">© 2018 Ugochi.</p>
+  </div>
+
+
+
+</body>
+
+</html>

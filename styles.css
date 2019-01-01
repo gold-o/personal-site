@@ -1,0 +1,182 @@
+/* rem is most adaptable when it comes to font sizing.
+look up em, rem, and differences.
+1em = 16 pixels
+absolute vs. relative positioning.
+
+
+background-color: #E4F9F5;
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  position: relative;
+  background-color: white;
+
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  font-family: "Georgia";
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  margin-top: 90px;
+  padding-top: 40px;
+
+
+}
+
+.pro {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.programmer {
+  font-weight: normal;
+  font-size: 1.7rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.profile {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-family: "Montserrat";
+  margin: 10px 15px;
+}
+a:hover {
+  color: #EAF6F6
+}
+.photoshop{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+  .writing {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin-left: 0;
+}
+.skill-row {
+  width: 50%;
+  margin: 80px auto 80px auto;
+  text-align: left;
+  line-height: 2;
+  color: #40514E;
+}
+
+.introduction {
+  line-height: 2;
+  color: #40514E;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-bottom: none;
+  width: 5%;
+  color: grey;
+  margin: 60px auto 60px auto;
+}
+.contact-description {
+  color: #40514E
+}
+.butn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+  background-image: linear-gradient(to bottom, #66BFBF, #11999E);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.butn:hover {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+  background-image: linear-gradient(to bottom, #66BFBF, #11999E);
+  text-decoration: none;
+}
+
+.butn {
+  margin-top: 50px ;
+}
+.contact-description {
+  padding-top: 10px;
+  padding-bottom: 30px;
+
+}
+.copyright {
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  color: #EAF6F6;
+  font-size: 0.75rem /* 75% 0f 16px*/
+}
+
+/*
+.work {
+  position: relative;
+  left: 930px;
+  top: 50px;
+}
+.notes {
+position: absolute;
+left: 1000px;
+top: 50px;
+}
+*/
